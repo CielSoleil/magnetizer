@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	hash := flag.String("-hash", "", "The magnet hash you have")
+	hash := flag.String("hash", "", "The magnet hash you have")
 	flag.Parse()
 
 	if *hash != "" {
