@@ -1,5 +1,10 @@
 package main
 
+import (
+	"flag"
+	"fmt"
+)
+
 func main() {
 	hash := flag.String("-hash", "", "The magnet hash you have")
 	flag.Parse()
