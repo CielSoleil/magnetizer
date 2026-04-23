@@ -18,5 +18,5 @@ uninstall:
 	@echo "Uninstalling $(EXEC)"
 	rm -f $(INSTALLDIR)/$(EXEC)
 
-clear:
+clean:
 	rm -f $(BUILDDIR)/$(EXEC)
