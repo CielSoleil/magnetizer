@@ -7,7 +7,7 @@ BUILDDIR    = build
 
 build:
 	@echo "Building $(EXEC)"
-	go build magnetizer.go -o $(BUILDDIR)/$(EXEC)
+	go compile magnetizer.go -o $(BUILDDIR)/$(EXEC)
 
 install:
 	@echo "Installing $(EXEC) to $(INSTALLDIR)"
